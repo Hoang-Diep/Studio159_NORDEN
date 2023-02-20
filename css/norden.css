@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* line 3, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 200; }
+
+/* line 15, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 30px auto; }
+  /* line 22, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+  header .title {
+    display: inline;
+    width: 500px; }
+    /* line 26, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    header .title h1 {
+      display: inline;
+      font-size: 40px; }
+  /* line 29, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+  header .top-menu {
+    display: inline-grid;
+    grid-template-columns: 225px 225px 350px 100px;
+    width: 900px;
+    list-style: none; }
+    /* line 36, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    header .top-menu__card ul {
+      line-height: 30px;
+      list-style: none; }
+      /* line 40, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      header .top-menu__card ul li:hover {
+        font-weight: 700;
+        text-decoration: underline; }
+    /* line 43, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    header .top-menu__card:nth-child(3) {
+      display: inline-flex;
+      align-items: center;
+      height: 30px; }
+      /* line 49, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      header .top-menu__card:nth-child(3) ion-icon {
+        margin-right: 25px;
+        font-size: 25px; }
+      /* line 50, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      header .top-menu__card:nth-child(3) input {
+        border: 0;
+        border-bottom: 1px solid transparent;
+        width: 80px;
+        margin: 0;
+        padding: 10px;
+        color: #000;
+        outline: none;
+        transition: 0.1s; }
+      /* line 62, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      header .top-menu__card:nth-child(3) input:focus {
+        border-bottom: 1px solid #000;
+        width: 250px; }
+    /* line 65, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    header .top-menu__card:last-child {
+      text-align: right; }
+
+/* line 69, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  max-width: 1200px;
+  margin: 100px auto; }
+  /* line 77, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+  main .card {
+    position: relative;
+    border-bottom: 1px solid #000; }
+    /* line 81, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    main .card img {
+      width: 100%;
+      height: 750px; }
+    /* line 82, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    main .card__content {
+      margin: 30px 0; }
+      /* line 85, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      main .card__content h3, main .card__content span {
+        font-size: 24px;
+        line-height: 40px; }
+      /* line 86, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      main .card__content span {
+        display: inline-block;
+        margin-top: 30px;
+        font-weight: 700; }
+      /* line 93, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      main .card__content span.icon {
+        position: absolute;
+        right: 0;
+        border-bottom: 2px solid #000;
+        border-right: 2px solid #000;
+        width: 30px;
+        height: 30px; }
+      /* line 102, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+      main .card__content span.icon::before {
+        content: '';
+        position: absolute;
+        right: 11px;
+        bottom: -15px;
+        transform: rotate(-45deg);
+        border-right: 2px solid #000;
+        width: 20px;
+        height: 45px; }
+
+/* line 118, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 2fr;
+  border-top: 2px solid #000;
+  width: 1200px;
+  margin: auto;
+  padding: 50px 0; }
+  /* line 129, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+  footer .footer__title {
+    position: relative; }
+    /* line 132, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    footer .footer__title h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 32px; }
+  /* line 142, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+  footer ul.footer__card {
+    list-style: none; }
+    /* line 145, ../../Users/THE MING/OneDrive/Máy tính/PUNPUN/WPR/Studio159_NORDEN/css/norden.scss */
+    footer ul.footer__card li:hover {
+      font-weight: 700; }
+
+/*# sourceMappingURL=norden.css.map */
